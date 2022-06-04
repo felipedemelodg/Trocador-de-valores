@@ -11,11 +11,42 @@
 
 <body>
     <form action="" id="formulario">
-        <input type="text" id="valor" placeholder="Ex: R$2,35">
+        <input type="text" id="valor" placeholder="Ex: R$2.35">
         <input type="submit" value="troca" id="botao-que-troca">
     </form>
     <section id="resultado">
-        
+         <table> 
+            <tr>
+                <th>moeda</th>
+                <th>quantidade</th>
+            </tr>
+            <tr>
+                <td>R$ 0,01</td>
+                <td id="moeda-de-1"></td>
+            </tr>
+            <tr>
+                <td>R$ 0,05</td>
+                <td id="moeda-de-5"></td>
+            </tr>
+            <tr>
+                <td>R$ 0,10</td>
+                <td id="moeda-de-10"></td>
+            </tr>
+           
+            <tr>
+                <td>R$ 0,25</td>
+                <td id="moeda-de-25"></td>
+            </tr>
+            <tr>
+                <td>R$ 0,50</td>
+                <td id="moeda-de-50"></td>
+            </tr>
+            <tr>
+                <td>R$ 1,00</td>
+                <td id="moeda-de-100"></td>
+            </tr>
+            </tr>
+        </table> 
     </section>
     <script type="module" src="js/main.js"></script>
 </body>

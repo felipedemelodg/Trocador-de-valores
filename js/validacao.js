@@ -3,7 +3,7 @@ const verSeEstaVazio = (valor) => {
     return valor != "" ? false : true
 }
 const verSeEUmNumero = (valor) => {
-    return (/^[0-9 ,]*$/).test(valor) ? false : true
+    return (/^[0-9 .]*$/).test(valor) ? false : true
 }
 const listaDeErros = (erros) => {
     const lista = []
